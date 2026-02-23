@@ -19,7 +19,6 @@ public class AIService {
     @Value("${sarvam.api.url}")
     private String apiUrl;
 
-    // 🔥 Custom RestTemplate with timeout configuration
     private RestTemplate createRestTemplate() {
         SimpleClientHttpRequestFactory factory = new SimpleClientHttpRequestFactory();
         factory.setConnectTimeout(10000); // 10 seconds
