@@ -162,7 +162,7 @@ function addMessage(text, type) {
     message.classList.add("message", type);
 
     if (type === "ai") {
-        message.innerHTML = marked.parse(text);  // 🔥 Markdown support
+        message.innerHTML = marked.parse(text);  
     } else {
         message.innerText = text;
     }
