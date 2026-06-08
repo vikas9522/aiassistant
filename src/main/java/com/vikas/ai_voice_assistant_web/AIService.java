@@ -38,7 +38,7 @@ public class AIService {
 
             // 🔹 Request Body
             Map<String, Object> body = Map.of(
-                    "model", "sarvam-m",
+                    "model", "sarvam-30b",
                     "messages", List.of(
                             Map.of("role", "user", "content", userMessage)
                     )
